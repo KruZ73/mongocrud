@@ -18,4 +18,8 @@ async function connect() {
     }
 }
 
+async function getAllListings(client) {
+    const collection = await client.db('')
+}
+
 module.exports = {connect}
